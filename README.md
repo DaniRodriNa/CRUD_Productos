@@ -25,6 +25,11 @@ El proyecto es un microservicio que conecta con una base de datos y mapea una cl
    
    >PUT: Actualiza un producto
    
+### Metodos
+* verProductos(); -> Lista de productos
+* buscarProducto(int codigoProducto); -> Producto que se busca por la id
+* insertarProducto(Producto producto); -> Insertar un producto que se pasa como parametro
+* actualizarProducto(int codigoProducto,int unidades) -> Actualiza el stock de un producto
 ## Autor
 * Daniel Rodriguez
 ## Estado
